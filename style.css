@@ -1,0 +1,66 @@
+body {
+  font-size: 64px;
+  background-color: #000;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px;
+  grid-template-areas:
+    "header header header header"
+    "main main main main"
+    "main main main main"
+    "main main main main"
+    "main main main main"
+    "main main main main";
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-gap: 1rem;
+}
+
+.item-header {
+  grid-area: header;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background-color: #000;
+  color: #ffffff;
+  text-align: right;
+}
+
+.btn {
+  background-color: #696969;
+  border: none;
+  color: #ced2d3;
+  padding: 20px;
+  text-align: center;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.btnzero {
+  background-color: #696969;
+  border: none;
+  color: #ced2d3;
+  padding: 14px 32px;
+  text-align: center;
+  margin: 4px 4px;
+  border-radius: 30%;
+  width: 11rem;
+  /* height: 5rem; */
+}
+
+.silver {
+  background-color: #c0c0c0;
+  color: #000000;
+}
+
+.orange {
+  background-color: #ff6701;
+}
+
+button {
+  font-size: 26px;
+}
